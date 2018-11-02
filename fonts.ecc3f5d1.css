@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Light.4226e3a9.woff2') format('woff2'),
+        url('Lato-Light.25a12bba.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clear Sans';
+    src: url('ClearSans-Light.94e6121b.woff2') format('woff2'),
+        url('ClearSans-Light.3474b5c8.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Regular.a1d80688.woff2') format('woff2'),
+        url('Lato-Regular.b43e21e7.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clear Sans';
+    src: url('ClearSans-Bold.f4fe4b1d.woff2') format('woff2'),
+        url('ClearSans-Bold.b8ff936e.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clear Sans';
+    src: url('ClearSans-Medium.aa5c5ce6.woff2') format('woff2'),
+        url('ClearSans-Medium.a9378f19.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Bold.e85b53f0.woff2') format('woff2'),
+        url('Lato-Bold.3e5c5dc9.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
