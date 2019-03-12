@@ -104,7 +104,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"../../../../../../../../../usr/local/share/.config/yarn/global/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../../../../usr/local/lib/node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -136,7 +136,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../../../../../../usr/local/share/.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../../../usr/local/lib/node_modules/parcel/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -171,17 +171,17 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../../../../../../usr/local/share/.config/yarn/global/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"assets/fonts/fonts.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../../../../usr/local/lib/node_modules/parcel/src/builtins/bundle-url.js"}],"assets/fonts/fonts.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./Lato-Light.woff2":[["Lato-Light.e6823993.woff2","assets/fonts/Lato-Light.woff2"],"assets/fonts/Lato-Light.woff2"],"./Lato-Light.woff":[["Lato-Light.c34725b9.woff","assets/fonts/Lato-Light.woff"],"assets/fonts/Lato-Light.woff"],"./ClearSans-Light.woff2":[["ClearSans-Light.1e8c9dbb.woff2","assets/fonts/ClearSans-Light.woff2"],"assets/fonts/ClearSans-Light.woff2"],"./ClearSans-Light.woff":[["ClearSans-Light.9418192c.woff","assets/fonts/ClearSans-Light.woff"],"assets/fonts/ClearSans-Light.woff"],"./Lato-Regular.woff2":[["Lato-Regular.71d8ef0d.woff2","assets/fonts/Lato-Regular.woff2"],"assets/fonts/Lato-Regular.woff2"],"./Lato-Regular.woff":[["Lato-Regular.1f7777df.woff","assets/fonts/Lato-Regular.woff"],"assets/fonts/Lato-Regular.woff"],"./ClearSans-Bold.woff2":[["ClearSans-Bold.e0e4adec.woff2","assets/fonts/ClearSans-Bold.woff2"],"assets/fonts/ClearSans-Bold.woff2"],"./ClearSans-Bold.woff":[["ClearSans-Bold.8edc0875.woff","assets/fonts/ClearSans-Bold.woff"],"assets/fonts/ClearSans-Bold.woff"],"./ClearSans-Medium.woff2":[["ClearSans-Medium.f1794c8b.woff2","assets/fonts/ClearSans-Medium.woff2"],"assets/fonts/ClearSans-Medium.woff2"],"./ClearSans-Medium.woff":[["ClearSans-Medium.55f65f9f.woff","assets/fonts/ClearSans-Medium.woff"],"assets/fonts/ClearSans-Medium.woff"],"./Lato-Bold.woff2":[["Lato-Bold.f97ac815.woff2","assets/fonts/Lato-Bold.woff2"],"assets/fonts/Lato-Bold.woff2"],"./Lato-Bold.woff":[["Lato-Bold.79cf7465.woff","assets/fonts/Lato-Bold.woff"],"assets/fonts/Lato-Bold.woff"],"_css_loader":"../../../../../../../../../usr/local/share/.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/scss/style.scss":[function(require,module,exports) {
+},{"./Lato-Light.woff2":[["Lato-Light.e6823993.woff2","assets/fonts/Lato-Light.woff2"],"assets/fonts/Lato-Light.woff2"],"./Lato-Light.woff":[["Lato-Light.c34725b9.woff","assets/fonts/Lato-Light.woff"],"assets/fonts/Lato-Light.woff"],"./ClearSans-Light.woff2":[["ClearSans-Light.1e8c9dbb.woff2","assets/fonts/ClearSans-Light.woff2"],"assets/fonts/ClearSans-Light.woff2"],"./ClearSans-Light.woff":[["ClearSans-Light.9418192c.woff","assets/fonts/ClearSans-Light.woff"],"assets/fonts/ClearSans-Light.woff"],"./Lato-Regular.woff2":[["Lato-Regular.71d8ef0d.woff2","assets/fonts/Lato-Regular.woff2"],"assets/fonts/Lato-Regular.woff2"],"./Lato-Regular.woff":[["Lato-Regular.1f7777df.woff","assets/fonts/Lato-Regular.woff"],"assets/fonts/Lato-Regular.woff"],"./ClearSans-Bold.woff2":[["ClearSans-Bold.e0e4adec.woff2","assets/fonts/ClearSans-Bold.woff2"],"assets/fonts/ClearSans-Bold.woff2"],"./ClearSans-Bold.woff":[["ClearSans-Bold.8edc0875.woff","assets/fonts/ClearSans-Bold.woff"],"assets/fonts/ClearSans-Bold.woff"],"./ClearSans-Medium.woff2":[["ClearSans-Medium.f1794c8b.woff2","assets/fonts/ClearSans-Medium.woff2"],"assets/fonts/ClearSans-Medium.woff2"],"./ClearSans-Medium.woff":[["ClearSans-Medium.55f65f9f.woff","assets/fonts/ClearSans-Medium.woff"],"assets/fonts/ClearSans-Medium.woff"],"./Lato-Bold.woff2":[["Lato-Bold.f97ac815.woff2","assets/fonts/Lato-Bold.woff2"],"assets/fonts/Lato-Bold.woff2"],"./Lato-Bold.woff":[["Lato-Bold.79cf7465.woff","assets/fonts/Lato-Bold.woff"],"assets/fonts/Lato-Bold.woff"],"_css_loader":"../../../../../../usr/local/lib/node_modules/parcel/src/builtins/css-loader.js"}],"assets/scss/style.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"../../assets/fonts/fonts.css":"assets/fonts/fonts.css","./../images/fashion.jpg":[["fashion.25ea31ba.jpg","assets/images/fashion.jpg"],"assets/images/fashion.jpg"],"./../images/jewellery.jpg":[["jewellery.c2edd6a5.jpg","assets/images/jewellery.jpg"],"assets/images/jewellery.jpg"],"./../images/ecommerce.jpg":[["ecommerce.e149610f.jpg","assets/images/ecommerce.jpg"],"assets/images/ecommerce.jpg"],"./../images/Jeweller/jewellery-bg-before-after.jpg":[["jewellery-bg-before-after.e4c13026.jpg","assets/images/Jeweller/jewellery-bg-before-after.jpg"],"assets/images/Jeweller/jewellery-bg-before-after.jpg"],"./../images/Ecommerce/product copy2.jpeg":[["product copy2.bf3df660.jpeg","assets/images/Ecommerce/product copy2.jpeg"],"assets/images/Ecommerce/product copy2.jpeg"],"./../images/Fashion/fashion beauty retouch1 copy2.jpeg":[["fashion beauty retouch1 copy2.9a260390.jpeg","assets/images/Fashion/fashion beauty retouch1 copy2.jpeg"],"assets/images/Fashion/fashion beauty retouch1 copy2.jpeg"],"./../images/one-screen-bg-blue.svg":[["one-screen-bg-blue.55df6866.svg","assets/images/one-screen-bg-blue.svg"],"assets/images/one-screen-bg-blue.svg"],"./../images/one-screen-bg-orange.svg":[["one-screen-bg-orange.ace14554.svg","assets/images/one-screen-bg-orange.svg"],"assets/images/one-screen-bg-orange.svg"],"./../images/one-screen-bg-green.svg":[["one-screen-bg-green.6322daaa.svg","assets/images/one-screen-bg-green.svg"],"assets/images/one-screen-bg-green.svg"],"./../images/Fashion/fashion beauty retouch1 copy og.jpeg":[["fashion beauty retouch1 copy og.62a7636c.jpeg","assets/images/Fashion/fashion beauty retouch1 copy og.jpeg"],"assets/images/Fashion/fashion beauty retouch1 copy og.jpeg"],"_css_loader":"../../../../../../../../../usr/local/share/.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../../../../../usr/local/share/.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../../assets/fonts/fonts.css":"assets/fonts/fonts.css","./../images/fashion.jpg":[["fashion.25ea31ba.jpg","assets/images/fashion.jpg"],"assets/images/fashion.jpg"],"./../images/jewellery.jpg":[["jewellery.c2edd6a5.jpg","assets/images/jewellery.jpg"],"assets/images/jewellery.jpg"],"./../images/ecommerce.jpg":[["ecommerce.e149610f.jpg","assets/images/ecommerce.jpg"],"assets/images/ecommerce.jpg"],"./../images/Jeweller/jewellery-bg-before-after.jpg":[["jewellery-bg-before-after.e4c13026.jpg","assets/images/Jeweller/jewellery-bg-before-after.jpg"],"assets/images/Jeweller/jewellery-bg-before-after.jpg"],"./../images/Ecommerce/product copy2.jpeg":[["product copy2.bf3df660.jpeg","assets/images/Ecommerce/product copy2.jpeg"],"assets/images/Ecommerce/product copy2.jpeg"],"./../images/Fashion/fashion beauty retouch1 copy2.jpeg":[["fashion beauty retouch1 copy2.9a260390.jpeg","assets/images/Fashion/fashion beauty retouch1 copy2.jpeg"],"assets/images/Fashion/fashion beauty retouch1 copy2.jpeg"],"./../images/one-screen-bg-blue.svg":[["one-screen-bg-blue.55df6866.svg","assets/images/one-screen-bg-blue.svg"],"assets/images/one-screen-bg-blue.svg"],"./../images/one-screen-bg-orange.svg":[["one-screen-bg-orange.ace14554.svg","assets/images/one-screen-bg-orange.svg"],"assets/images/one-screen-bg-orange.svg"],"./../images/one-screen-bg-green.svg":[["one-screen-bg-green.6322daaa.svg","assets/images/one-screen-bg-green.svg"],"assets/images/one-screen-bg-green.svg"],"./../images/Fashion/fashion beauty retouch1 copy og.jpeg":[["fashion beauty retouch1 copy og.62a7636c.jpeg","assets/images/Fashion/fashion beauty retouch1 copy og.jpeg"],"assets/images/Fashion/fashion beauty retouch1 copy og.jpeg"],"_css_loader":"../../../../../../usr/local/lib/node_modules/parcel/src/builtins/css-loader.js"}],"../../../../../../usr/local/lib/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -208,7 +208,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56182" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55057" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -350,4 +350,4 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["../../../../../../../../../usr/local/share/.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["../../../../../../usr/local/lib/node_modules/parcel/src/builtins/hmr-runtime.js"], null)
