@@ -7417,3 +7417,20 @@ input[type="range"]::-moz-range-track {
     width: 100%;
     text-align: center;
     align-items: center; } }
+
+.pricing {
+  margin-bottom: 2rem; }
+  .pricing .pricing-cards {
+    padding: 2rem 0; }
+    .pricing .pricing-cards .pricing-card {
+      text-align: center; }
+      .pricing .pricing-cards .pricing-card h3 {
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #303030;
+        margin-bottom: 1rem; }
+      .pricing .pricing-cards .pricing-card p {
+        font-size: 0.9rem;
+        padding: 0 5px; }
+      .pricing .pricing-cards .pricing-card .button {
+        margin: 2rem 0; }
