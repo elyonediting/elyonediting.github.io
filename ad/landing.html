@@ -63,7 +63,7 @@
                             <p style="color: #fff;">Starts from 25¢ per image. Best in Quality. Tailored To Your Needs. Fast Response Time.</p>   
                                 <a href="#get-free-contact-card" style="margin-right: 10px;"> <button class="button is-primary">Get 5 Images Free Trial Now</button> </a>
                                 <a href="#get-free-contact-card"> <button class="button">Contact Us</button> </a>
-                            <img src="landing_change_img.png" alt="">
+                            <img src="landing__img.png" alt="landing image">
                         </div>
                         <div class="column">
                             <div class="get-free-contact-card">
@@ -71,23 +71,23 @@
                                 <form id="get-free-contact-card">
                                     <div>
                                         <label for="">First Name*</label><br>
-                                        <input type="text" name="" id="">
+                                        <input type="text" name="fname" id="">
                                     </div>
                                     <div>
                                         <label for="">Last Name*</label><br>
-                                        <input type="text" name="" id="">
+                                        <input type="text" name="lname" id="">
                                     </div>
                                     <div>
                                         <label for="">Email</label><br>
-                                        <input type="email">
+                                        <input type="email" name="email">
                                     </div>
                                     <div>
                                         <label for="">Image File Link (Google Drive / DropBox )  </label><br>
-                                        <input type="text">
+                                        <input type="text" name="file_link">
                                     </div>
                                     <div>
                                         <label for="">Message / Notes</label><br>
-                                        <input type="text">
+                                        <input type="text" name="notes">
                                     </div>
                                     <a href=""> <button class="button is-primary">Submit</button> </a>
                                 </form>
@@ -286,7 +286,6 @@
         </footer>
         <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
         <script src="/src.8676148f.js"></script>
-        <script src="https://static.formx.stream/tracker/v1/bundle.js"></script>
         <script>
             function t() {
                 dataLayer.push(arguments);
@@ -310,14 +309,13 @@
             a.trackProject("ElyonEditing_244d67f0-377c-4676-9523-1723d201d2d9"), a.start();
         </script>
         <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-        <script src="/jquery.event.move.js"></script>
-        <script src="/jquery.twentytwenty.js"></script>
-    
+        
+        <script src="https://static.formx.stream/tracker/v1/bundle.js"></script>
         <script>
-            $(function(){
-              $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
-              $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
-            });
+        var formx = FormX.set()
+        formx.trackProject('ElyonEditing_244d67f0-377c-4676-9523-1723d201d2d9')
+        formx.trackForm('Advertisement_4c6e0d16-5283-4f71-b2bd-95c09a26ed08', 'get-free-contact-card')
+        formx.start()
         </script>
     </body>
 </html>
