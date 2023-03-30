@@ -15,6 +15,8 @@
         <meta name="theme-color" content="#ffffff" />
         <link rel="stylesheet" href="/style.c92b619d.css" />
         <link rel="stylesheet" href="/animated.0439d7e1.css" />
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128391777-1"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous" />
         <!-- Global site tag (gtag.js) - Google Ads: 324468385 -->
@@ -65,42 +67,25 @@
         <main>
             <section class="hero video">
                 <div class="hero-image-bg">
-                        <style>
-                            @keyframes slidy {
-                                    0% { left: 0%; }
-                                    20% { left: 0%; }
-                                    25% { left: -100%; }
-                                    45% { left: -100%; }
-                                    50% { left: -200%; }
-                                    70% { left: -200%; }
-                                    75% { left: -300%; }
-                                    95% { left: -300%; }
-                                    100% { left: -400%; }
-                            }
-
-                            div#slider { overflow: hidden; }
-                            div#slider figure img { width: 20%; float: left; }
-                            div#slider figure { 
-                                  position: relative;
-                                  width: 500%;
-                                  margin: 0;
-                                  left: 0;
-                                  text-align: left;
-                                  font-size: 0;
-                                  animation: 30s slidy infinite; 
-                                }
-                        </style>
-                    <!-- <img src="/cococola-1080p.066856fe.png" alt="Pepsi image"> -->
-                    <div id="slider">
-                        <figure>
-                            <img src="/1.jpg" alt="before after image">
-                            <img src="/2.jpg" alt="before after image">
-                            <img src="/3.jpg" alt="before after image">
-                            <img src="/4.jpg" alt="before after image">
-<!--                             <img src="/5.jpg" alt="before after image"> -->
-<!--                             <img src="/6.jpg" alt="before after image"> -->
-                        </figure>
-                     </div>
+                    <section class="splide" aria-label="Splide">
+                        <div class="splide__track">
+                              <ul class="splide__list">
+                                  <li class="splide__slide"><img src="/1.jpg" alt="before after image"></li>
+                                  <li class="splide__slide"><img src="/2.jpg" alt="before after image"></li>
+                                  <li class="splide__slide"><img src="/3.jpg" alt="before after image"></li>
+                                  <li class="splide__slide"><img src="/4.jpg" alt="before after image"></li>
+                                  <li class="splide__slide"><img src="/5.jpg" alt="before after image"></li>
+                                  <li class="splide__slide"><img src="/6.jpg" alt="before after image"></li>
+                              </ul>
+                              <script>
+                                var splide = new Splide( '.splide', {
+                                    type    : 'loop',
+                                    autoplay: 'true',
+                                } );
+                                    splide.mount();
+                              </script>
+                        </div>
+                      </section>
                     <!-- <video poster="/cococola-1080p.066856fe.png" id="bgvid" pslaysinline="" autoplay muted loop><source src="/cocacola-image-editing_1.c36110df.mp4" type="video/mp4" /></video> -->
                 </div>
                 <div class="hero-body">
